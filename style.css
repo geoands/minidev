@@ -1,0 +1,92 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+main {
+  flex: 1;
+  min-width: 480px;
+  max-width: 480px;
+  margin: 50px auto 20px;
+  padding: 20px;
+  background: #1e1e1e;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-size: 0.9rem;
+}
+
+select,
+textarea,
+button {
+  margin-top: 5px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  outline: none;
+}
+
+select,
+textarea {
+  background: #2a2a2a;
+  color: #e0e0e0;
+}
+
+select:disabled {
+  opacity: 0.5;
+}
+
+button {
+  background: #6704c4;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: 0.5s;
+}
+
+button:hover {
+  background: #440083;
+}
+
+.caixa-explicacao {
+  margin-top: 10px;
+  background-color: #2a2a2a;
+  color: #e0e0e0;
+  padding: 15px;
+  border-radius: 6px;
+  min-height: 70px;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+
+footer {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 0.8rem;
+}
