@@ -16,8 +16,8 @@ body {
 
 main {
   flex: 1;
-  min-width: 480px;
-  max-height: 520px;
+  width: 70dvh;
+  height: 100dvh;
   margin: 50px auto 20px;
   padding: 20px;
   background: #1e1e1e;
@@ -90,11 +90,3 @@ footer {
   padding: 15px 0;
   font-size: 0.8rem;
 }
-
-    @media (max-width: 768px) {
-      .caixa {
-        width: 95%;          /* ocupa mais espaço no celular */
-        max-height: 70vh;    /* altura máxima menor */
-        padding: 30px;       /* aumenta o espaço interno */
-      }
-    }
