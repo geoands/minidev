@@ -27,8 +27,8 @@ main {
 
 @media (min-width: 320px) and (max-width: 640px) {
   .main {
-    min-width: 60px;
-    max-height: 200px;
+    min-width: 30px;
+    max-height: 170px;
   }
 } 
 
